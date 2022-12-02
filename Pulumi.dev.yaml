@@ -1,0 +1,6 @@
+config:
+  MyStaticWebsite:errorDocument: error.html
+  MyStaticWebsite:indexDocument: index.html
+  MyStaticWebsite:path: ./www
+  azure-native:location: Westeurope
+  pulumi:template: static-website-azure-csharp
