@@ -60,7 +60,7 @@ return await Deployment.RunAsync(() =>
     // Create a CDN endpoint to distribute and cache the website.
     var endpoint = new AzureNative.Cdn.Endpoint("endpoint", new()
     {
-        ResourceGroupName = resourceGroup1.Name,
+        ResourceGroupName = resourceGroup.Name,
         ProfileName = profile.Name,
         IsHttpAllowed = false,
         IsHttpsAllowed = true,
